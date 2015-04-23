@@ -1,0 +1,13 @@
+<apex:page renderAs="pdf">
+<style>
+        img{
+            max-height:100%; 
+            max-width:100%;
+            heiht:auto;
+            width:auto;          
+        }     
+  </style>
+<div align="center" vertical-align="top">
+<apex:image value="/servlet/servlet.FileDownload?file={!$CurrentPage.parameters.Fileid}"/>
+</div>
+</apex:page>
