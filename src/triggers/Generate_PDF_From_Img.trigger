@@ -9,7 +9,6 @@ trigger Generate_PDF_From_Img on Attachment (after insert)
 		pId=att.ParentId;
 		if (Title.right(3)=='jpg')
 		{
-//		Apply to all image attachment
 //			List<Account> Act = [Select id from account where id=:pId];
 //			if (Act.size()>0)
 //			{
