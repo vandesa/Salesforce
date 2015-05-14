@@ -5,6 +5,7 @@
         <members>AsyncAttImgToPDF</members>
         <members>AttImgToPDF</members>
         <members>Att_Img_To_PDF</members>
+        <members>EXConfigController</members>
         <name>ApexClass</name>
     </types>
     <types>
@@ -14,6 +15,10 @@
     <types>
         <members>Generate_PDF_From_Img</members>
         <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>EX_Setting__c</members>
+        <name>CustomObject</name>
     </types>
     <types>
         <members>webserviceSFDC</members>
