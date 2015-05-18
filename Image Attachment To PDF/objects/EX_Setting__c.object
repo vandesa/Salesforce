@@ -14,5 +14,17 @@
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
     </fields>
+    <fields>
+        <fullName>Image_attachment_PDF_render_object__c</fullName>
+        <description>List of objects of which image attachment will be render as PDF file, object list is split by comma. Empty value means all objects supported</description>
+        <externalId>false</externalId>
+        <inlineHelpText>List of objects of which image attachment will be render as PDF file, object list is split by comma. Empty value means all objects supported</inlineHelpText>
+        <label>Image attachment PDF render object</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <label>EX Setting</label>
 </CustomObject>

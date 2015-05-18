@@ -17,7 +17,14 @@ global class Att_Img_To_PDF
     	{
     		return false;
     	}
-    	
+    	if (EX_Setting__c.getInstance().Image_attachment_PDF_render_object__c == '')
+    	{
+    		return false;
+    	}
+    	if (EX_Setting__c.getInstance().Image_attachment_PDF_render_object__c.ContainsNone(pId.getSObjectType().getDescribe().getName()) && EX_Setting__c.getInstance().Image_attachment_PDF_render_object__c != 'All')
+    	{
+    		return false;
+    	}    	
     	return true;
     }
     

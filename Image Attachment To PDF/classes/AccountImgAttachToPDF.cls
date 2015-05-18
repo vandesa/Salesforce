@@ -9,8 +9,8 @@ public with sharing class AccountImgAttachToPDF {
         stub.Att_Img_To_PDF(Title, ImgId, pId);
 			if(EX_Setting__c.getInstance().Delete_image_render__c)
 			{
-				attachment att =[select id from attachment where id=: ImgId];
-				delete att;
+					attachment att =[select id from attachment where id=: ImgId];
+					delete att;
 			}        
     }
      
